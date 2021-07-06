@@ -1,6 +1,7 @@
 import counterReducer from "./counter";
 import loggedReducer from "./isLogged";
 import { combineReducers } from 'redux';
+//Reducers
 
 const allReducers = combineReducers({
     counter: counterReducer,
